@@ -10,7 +10,4 @@
     ```
     pip install bs4 requests
     ```
-    ```
-    venv/Scripts/Activate
-    ```
 3. Run the code
