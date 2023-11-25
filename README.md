@@ -1,4 +1,5 @@
 # RateGain-Submission
+This project employs a systematic approach to scrape essential data from the "https://rategain.com/blog/" website and organizes it efficiently by converting the extracted information into a CSV format.
 
 ## **Project Setup**
 
