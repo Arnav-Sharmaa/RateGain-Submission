@@ -53,7 +53,7 @@ with open(csv_filename, 'w', newline='') as csvfile:
                 image_url = ""
             
             # Extract the number of likes for the blog entry
-            likes = entry.find('a', class_='zilla-likes').find('span').text.strip()
+            likes = entry.find('a', class_='zilla-likes').find('span').text.strip()[0]
             
             # Write the extracted information to the CSV file
             csv_writer.writerow([date, title, image_url, likes])
